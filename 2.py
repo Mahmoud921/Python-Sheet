@@ -1,0 +1,5 @@
+arr = list(map(int,input().split()))
+arr_sort = sorted(arr)
+print(arr_sort,end=" ")
+arr_sort.reverse()
+print(arr_sort)
